@@ -19,6 +19,6 @@ terraform {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "mysecondResourceGroup"
-  location = "centralindia"
+  name     = "myFirstResourceGroup"
+  location = "westeurope"
 }
